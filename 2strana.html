@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stil.css">
+<style>
+.slika img{
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+    }
+.slika2 img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    }
+.traka{ 
+ height: auto;
+}
+.traka div{
+height: 70px;
+background: rgb(255, 255, 255);
+background-color: rgb(83, 83, 248);
+}
+    
+.traka a{
+    padding: 3px 3px;
+    height: 75px;
+
+}
+.traka a:hover{
+    background-color: rgb(124, 124, 248);
+    color: rgb(83, 83, 248);
+    height: auto;
+}
+.traka a.active{
+    background-color: rgb(124, 124, 248);
+    color: rgb(83, 83, 248);
+    height: 75px;
+}
+.text{
+    width: auto;
+    height: auto;
+}
+.text div
+{
+    background-color: white;
+    height: 30px;
+}
+.text input
+{
+    height: 10px;
+    width: 120px;
+}
+
+.naslov{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    height: auto;
+    width: auto;
+}
+.naslov div{
+    height: 30px;
+}
+.text2{
+    background-color: white;
+
+}
+.text2 div
+{
+    background-color: white;
+    color: white;
+}
+.text2 input{
+    height: 200px;
+    width: 400px;
+}
+.button{
+    width: 15px;
+    height: 15px;
+}
+.button div{
+    height: 30px;
+    width: 30px;
+}
+.button button{
+    
+}
+
+
+</style>
+</head>
+
+<body>
+    
+    <div class="traka">
+        <div class="slika2">
+           <img src="logo.png"  alt="">       
+               <a href="1strana.html" >Profile</a>
+               <a class="active" href="2strana.html" >Projects</a>
+               <a href="3strana.html" >About</a>
+           
+       </div>
+    </div>
+    <div class="naslov">
+    <h2>
+        New project
+    </h2>
+   </div>
+    <div class="text">
+        <div>
+            <input type="text" id="Name" name="Name" placeholder="Name">
+        </div>
+    </div>
+    <div class="text2">
+        <input type="text" id="Name" name="Name" placeholder="Description">
+    </div> 
+    
+    <div class="button">
+        <button type="submit" class="btn">Prijava</button>
+    </div>
+
+
+
+</body>
+</html>
